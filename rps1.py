@@ -34,6 +34,31 @@ while True:
 	print("Ties: " + str(ties))
 	choice = input("Enter 'r' for Rock, 'p' for Paper, 's' for Scissors or 'q' to quit: ")
 	computerChoice = random.choice(cChoices)
+	
+	if choice == "r":
+		print(name + " Picked Rock")
+ 	if computerChoice == "r":
+   		print("computer picked rock")
+   		print("This is a tie")
+   		ties = ties + 1 
+   	elif computerChoice == "p":
+   		print("Computer picked Paper")
+   		print("Paper beats Rock")
+   		computerScore += 1 
+   	else:
+   		print("Computer picked Scissors")
+   		print("Rock beats Scissors")
+   		playerScore += 1
+       elif choice == "p":
+   	
+       elif choice == "s":
+   	pass
+     else:
+   	pass
+
+
+
+
 
 
 
